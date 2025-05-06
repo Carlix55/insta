@@ -1,0 +1,69 @@
+/* Contenedor principal */
+.welcome-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #fafafa;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Contenido de la página */
+  .welcome-content {
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+  }
+  
+  /* Logo de Instagram */
+  .welcome-content .logo img {
+    width: 150px;
+    margin-bottom: 30px;
+  }
+  
+  /* Mensaje de bienvenida */
+  .welcome-content .message h1 {
+    font-size: 30px;
+    color: #262626;
+    font-weight: 600;
+  }
+  
+  .welcome-content .message p {
+    color: #8e8e8e;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  
+  /* Botones */
+  .welcome-content .auth-buttons {
+    margin-top: 30px;
+  }
+  
+  .welcome-content .btn {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .welcome-content .btn-primary {
+    background-color: #3897f0;  /* Color de Instagram */
+    color: white;
+    margin-bottom: 10px;
+  }
+  
+  .welcome-content .btn-secondary {
+    background-color: #ffffff;
+    color: #3897f0;
+    border: 1px solid #3897f0;
+  }
+  
+  .welcome-content .btn:hover {
+    opacity: 0.8;
+  }
+  
